@@ -2,7 +2,7 @@ import React from 'react'
 
 import { Snackbar } from '@mui/material'
 
-import Imitation from '../utils/imitation'
+import Imitation from './utils.imitation'
 
 function App() {
   const s = React.useRef(null)

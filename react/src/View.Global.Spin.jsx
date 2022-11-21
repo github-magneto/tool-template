@@ -3,7 +3,7 @@ import React from 'react'
 import { Backdrop } from '@mui/material'
 import { CircularProgress } from '@mui/material'
 
-import Imitation from '../utils/imitation'
+import Imitation from './utils.imitation'
 
 function App() {
   const [visible, setVisible] = React.useState(false)

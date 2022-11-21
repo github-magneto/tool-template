@@ -1,19 +1,16 @@
 import React from 'react'
-import { HashRouter, Route, Switch } from 'react-router-dom'
 
-import Default from './view/Page.Default'
-import Message from './view/Component.Message'
-import Spin from './view/Component.Spin'
+import Music from './View.Page.Music'
+import Message from './View.Global.Message'
+import Spin from './View.Global.Spin'
 
 function App() {
-  return <HashRouter>
+  return <>
     <Message />
     <Spin />
 
-    <Switch>
-      <Route path='/' exact><Default /></Route>
-    </Switch>
-  </HashRouter>
+    <Music />
+  </>
 }
 
 export default App
